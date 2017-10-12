@@ -95,6 +95,11 @@ button.btn {
   padding-bottom: 15px;
 }
 
+hr {
+  width: 75%;
+  margin: 10px 0;
+}
+
 /* Packages CSS */
 
 .row {
