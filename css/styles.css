@@ -1,6 +1,7 @@
 body {
   position: relative;
   box-sizing: border-box;
+  background-color: #edeff2;
 }
 
 nav.navbar {
@@ -75,4 +76,13 @@ button.btn {
   width: 40%;
   margin: 0 auto;
   margin-bottom: 10px;
+}
+
+.quotes {
+  clear: both;
+  background-color: #fff;
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
