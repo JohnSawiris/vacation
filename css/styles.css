@@ -94,3 +94,30 @@ button.btn {
   padding-top: 25px;
   padding-bottom: 15px;
 }
+
+/* Packages CSS */
+
+.row {
+  background-color: #fff;
+  margin: 25px 0 10px 0;
+  padding: 10px 0 10px 0;
+}
+
+img.col-md-4 {
+  padding: -0 0 30px 0;
+  object-fit: cover;
+  margin-top: -10px;
+}
+
+.highlight {
+  color: #17a2b8;
+}
+
+.col-md-3 button {
+  margin-top: 30px;
+}
+
+.col-md-3 h3 {
+  text-align: center;
+  padding-top: 70px;
+}
