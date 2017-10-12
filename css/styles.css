@@ -4,6 +4,10 @@ body {
   background-color: #edeff2;
 }
 
+.container {
+  margin-bottom: 30px;
+}
+
 nav.navbar {
   position: fixed;
   top: 0;
@@ -40,14 +44,12 @@ p.card-text {
   text-align: center;
   margin-top: 20px;
 }
-.centered {
-  width: 1200px;
-  margin: 0 auto;
-}
+
 .card {
-  width: 25%;
+  width: 30%;
   margin: 10px 10px 10px 20px;
   float: left;
+  transition:all .3s ease-in-out;
 }
 div.hover:hover {
   box-shadow: 5px 15px 5px #888;
@@ -78,10 +80,13 @@ button.btn {
   margin-bottom: 10px;
 }
 
-.quotes {
+.space {
+  margin-bottom: 50px;
   clear: both;
+}
+
+.quotes {
   background-color: #fff;
-  margin-top: 30px;
   padding-left: 50px;
   padding-top: 25px;
   padding-bottom: 15px;
